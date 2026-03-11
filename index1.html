@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+    <nav class="fixed w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tighter text-blue-400">Ummeda Abhilash</div>
+            <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest font-medium">
+                <a href="#home" class="hover:text-blue-400 transition">Home</a>
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#education" class="hover:text-blue-400 transition">Education</a>
+                <a href="#connect" class="hover:text-blue-400 transition">Connect</a>
+            </div>
+        </div>
+    </nav>
+     
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 gradient-bg px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 text-center md:text-left">
+            
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                
+                <img src="ChatGPT Image Mar 10, 2026, 07_44_16 PM.png" alt="Ummeda Abhilash" 
+                     class="relative w-48 h-48 md:w-54 md:h-64 rounded-full object-cover border-4 border-gray-800 shadow-2xl">
+            </div>
+
+            <div class="flex-1">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Hi, I'm <span class="text-blue-500">Ummeda Abhilash</span></h1>
+                <p class="text-xl text-gray-400 mb-8 max-w-2xl">
+                    I'm a developer and data enthusiast specializing in building elegant solutions with 
+                    <span class="text-blue-400 font-semibold">Python, MS Excel, and Power BI</span>.
+                </p>
+                
+                <div class="flex justify-center md:justify-start space-x-6 text-2xl">
+                    <a href="https://github.com/Abhilash0528" class="hover:text-blue-400 transition"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ummeda-abhilash-74357332b/" class="hover:text-blue-400 transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/abhi_patel_0528/" class="hover:text-pink-500 transition"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+
+    <section id="about" class="py-24 px-6 max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8 border-b-2 border-blue-500 inline-block">About Me</h2>
+        <p class="text-gray-400 leading-relaxed text-lg">
+            I specialize in building digital experiences that are functional, beautiful, and user-friendly. 
+            Currently, I am exploring new technologies and looking for opportunities to contribute to 
+            impactful projects. When I'm not coding, you'll find me [insert hobby].
+        </p>
+    </section>
+
+    <section id="skills" class="py-24 bg-gray-800/50">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12">My Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+                    <i class="fab fa-html5 text-4xl text-orange-500 mb-4"></i>
+                    <p class="font-bold">HTML & CSS</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+                    <i class="fab fa-js text-4xl text-yellow-400 mb-4"></i>
+                    <p class="font-bold">JavaScript</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+                    <i class="fab fa-react text-4xl text-blue-400 mb-4"></i>
+                    <p class="font-bold">React</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+                    <i class="fab fa-python text-4xl text-blue-300 mb-4"></i>
+                    <p class="font-bold">Python</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+                    <i class="fas fa-file-excel text-4xl text-green-500 mb-4"></i>
+                    <p class="font-bold">MS Excel</p>
+                 </div>
+
+                <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+                    <i class="fas fa-chart-bar text-4xl text-yellow-500 mb-4"></i>
+                    <p class="font-bold">Power BI</p>
+                </div>
+
+                <div class="p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition">
+                    <i class="fas fa-database text-4xl text-blue-400 mb-4"></i>
+                     <p class="font-bold">SQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12">Featured Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-800 rounded-2xl overflow-hidden group">
+                <div class="h-48 bg-gray-700 flex items-center justify-center group-hover:bg-blue-900/20 transition">
+                    <i class="fas fa-code text-5xl opacity-20"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Mini E-commerce</h3>
+                    <p class="text-gray-400 mb-4">Developed a responsive e-commerce web app using HTML, CSS, and JavaScript. Features include real-time search filtering, a persistent cart system, and optimized UI for mobile and desktop users.</p>
+                    <div class="flex space-x-4">
+                        <a href=" https://abhilash0528.github.io/E-commerce/" class="text-blue-400 hover:underline">Live Demo</a>
+                        <a href="https://github.com/Abhilash0528/E-commerce" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="education" class="py-24 bg-gray-800/50">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12">Education</h2>
+            <div class="border-l-4 border-blue-500 pl-8 space-y-12">
+                <div>
+                    <h3 class="text-xl font-bold">Avanthi Institute Of Engineering And Technology</h3>
+                    <p class="text-blue-400">Bachelor Of Technology</p>
+                    <p class="text-gray-500">2022 - 2026</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">Online Certification</h3>
+                    <p class="text-blue-400">Power-BI Micro Course</p>
+                    <p class="text-gray-500">2026</p>
+                    <p class="text-blue-400">Completion Of MS Excel</p>
+                    <p class="text-gray-500">2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect" class="py-24 text-center">
+        <h2 class="text-3xl font-bold mb-6">Let's Connect</h2>
+        <p class="text-gray-400 mb-10">Feel free to reach out for collaborations or just a friendly hello!</p>
+        <div class="flex justify-center space-x-10 text-4xl mb-12">
+            <a href="https://github.com/Abhilash0528" class="text-gray-400 hover:text-white transition"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ummeda-abhilash-74357332b/" class="text-gray-400 hover:text-blue-600 transition"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/abhi_patel_0528/" class="text-gray-400 hover:text-pink-500 transition"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+    </section>
+
+</body>
+</html>
